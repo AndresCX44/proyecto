@@ -1,81 +1,30 @@
 <!DOCTYPE html>
-<html lang="esp">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisio-Zen</title>
-    <link rel="stylesheet" href="estilos/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Examen tercer Parcial</title>
 </head>
 <body>
-    <div>
-        <h1>
-            <span class="verde">Fisio</span>-<span class="morado">Zen</span>
-        </h1>
-    </div>
-     <p></p>
-    <br>
-    <section>
-        <div>
-            <img src="img/fisiio-zen.png" alt="fisio-zen" width="250px" height="250px" class="logo">
-            <div class="relativo">
-                <ul class="menu">
-                    <li><a href="#"><ion-icon name="home-outline"></ion-icon>Inicio</a></li>
-                    <li><a href="#"><ion-icon name="layers-outline"></ion-icon>Servicios</a></li>
-                    <li><a href="#"><ion-icon name="medkit-outline"></ion-icon>Tratamientos</a></li>
-                    <li><a href="#"><ion-icon name="call-outline"></ion-icon>Contactanos</a></li>
-                    <li><a href="#"><ion-icon name="calendar-outline"></ion-icon>Agendar Cita</a></li>
-                </ul>
-            </div>
-        </div>
-        <div>
-            <h2>Recupera tu movimiento y bienestar</h2>
-            <p>Realizamos tratamientos totalmente personalizados para aliviar el dolor, mejorar tu movilidad y volver a la vida 
-                activa.
-            </p>
-        </div>
-        <div>
-            <h3>Tu recuperacion nuestra priorida</h3>
-            <p>Podemos atender desde lesiones deportivas hasta tratamientos rehabilitantes</p>
-            <ul>
-                <li>+60 Pacientes tratados</li>
-                <li>90% Satisfaccion</li>
-                <li>+5 años de experiencia</li>
-            </ul>
-        </div>
-        <div>
-            <a href="http://localhost/proyecto/" target="_blank">Agendar Cita Gratis</a>
-            <br>
-            <a href="http://localhost/proyecto/" target="_blank">Ver Servicios</a>
-        </div>
-        <div>
-            <h4>Nuestros Servicios</h4>
-            <h2>Tenemos Tratamientos especializados para cada necesidad</h2>
-            <p>Cada plan de tratamiento se diseña individualmente para maximizar tu recuperacion de forma 
-                segura y eficaz.
-            </p>
-            <h3>Fisioterapia musculoesqueletica</h3>
-            <p>Tratamientos de dolores musuclares articulares y oseos.</p>
-            <h3>Fisioterapia Deportiva</h3>
-            <p>recuperacion de lesiones deportivas como esguinces, roturas etc.</p>
-            <h3>Fisioterapia Termoterapia</h3>
-            <p>Uso del calor superficial para aliviar espamos o dolor.</p>
-            <h3>Fisioterapia Crioterapia</h3>
-            <p>Uso del frio superficial para aliviar espamos o dolor.</p>
-        </div>
-        <div>
-            <h4>Agenda tu Cita</h4>
-            <h2>Empieza hoy tu recuperacion</h2>
-            <p>Primera consulta sin costo. Cuentanos tu situacion y nuestro equipo 
-                diseñara un plan adecuado a tus necesidades.
-            </p>
-        </div>
-    </section>
-    <br>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <h1>Examen tercer parcial desarrollo web</h1>
+    <!--ECUACIÓN-->
+    <h2>Ecuación de Segundo Grado</h2>
+    <label>A:</label>
+    <input type="number" id="a">
+    <label>B:</label>
+    <input type="number" id="b">
+    <label>C:</label>
+    <input type="number" id="c">
+    <button onclick="calcularEcuacion()">Calcular Ecuacion</button>
+    <p id="respuestaEcuacion"></p>
+    <!--FACTORIAL-->
+    <h2>Factorial</h2>
+    <label>Número:</label>
+    <input type="number" id="num">
+    <button onclick="calcularFactorial()">Calcular</button>
+    <p id="respuestaFactorial"></p>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
